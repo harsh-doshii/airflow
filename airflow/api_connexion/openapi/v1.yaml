@@ -2821,7 +2821,7 @@ components:
               writeOnly: true
               description: Password of the connection.
             extra:
-              type: string
+              type: object
               nullable: true
               description: Other values that cannot be put into another field, e.g. RSA keys.
 
@@ -3270,7 +3270,7 @@ components:
         extra:
           description: |
             Other information that was not included in the other fields, e.g. the complete CLI command.
-          type: string
+          type: object
           readOnly: true
           nullable: true
 

@@ -473,9 +473,9 @@ class TestPatchConnection(TestConnectionEndpoint):
                 {
                     "connection_id": "test-connection-id",
                     "conn_type": "test-type",
-                    "extra": 0,  # expected string
+                    "extra": 0,  # expected object
                 },
-                "0 is not of type 'string' - 'extra'",
+                "0 is not of type 'object' - 'extra'",
             ),
             (
                 {
